@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    
+}
+ body
+{
+    background-color:lavender;
+} 
+.wrapper
+{
+    height: auto;
+    /* margin-left: 35%; */
+    margin-bottom: 9px;
+    width: 100%;
+    background-color:honeydew;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px red;
+}
+.wrapper h2
+{
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.wrapper .input_field
+{
+    margin-bottom: 10px;
+}
+.wrapper .input_field input[type="text"]
+{
+   width: 100%;
+   border: 1px solid gray;
+   padding: 10px;
+   border-radius: 3px;
+}
+/* .wrapper textarea
+{
+    resize: none;
+    height: 80px;
+} */
+.wrapper .btn input[type="submit"]
+{
+    text-align: center;
+     margin-left: 30px;
+     border: 0px;
+     margin-top: 15px;
+     padding: 10px; 
+    width: 100%;
+    background-color:darkgreen;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+ .wrapper #error_message
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color:goldenrod;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+} 

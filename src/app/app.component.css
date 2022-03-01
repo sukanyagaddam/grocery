@@ -1,0 +1,10 @@
+h1{
+    color: rgb(80, 9, 9);
+    text-align: center;
+    background-color:rgb(135, 185, 40);
+}
+.right
+{
+   display: flex;
+    margin-left:100px;
+}

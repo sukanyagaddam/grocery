@@ -1,0 +1,27 @@
+.card{
+    padding: 15px;
+    box-shadow: 6px 6px rgb(105, 131, 10);
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    width: 280px;
+}
+.card img
+{
+  height: 190px;  
+  width: 130px;
+  
+}
+img
+{
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+.center
+{
+ text-align: center;   
+}
+h6:before {
+  content: ' \20B9';
+}

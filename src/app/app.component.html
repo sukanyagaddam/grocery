@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <div class="container-fluid">
+    <div class="row">
+    <div class="col-xs-sm-md-lg-12">  -->
+  <h1>GROCERY</h1>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+      <img src="./assets/media/grocery-store-logo.jpg" alt="no img" width="50px" height="50px" class="rounded-circle">
+    </a>
+    <ul class="navbar-nav">
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" routerLink="/categories" style="color: rgb(51, 206, 211);" id="navbardrop" data-toggle="dropdown">
+        Categories
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink="/categories/fruits" style="color:rgb(93, 30, 194);"><b>Fruits</b></a>
+        <a class="dropdown-item" routerLink="/categories/vegetables" style="color: rgb(93, 30, 194);"><b>Vegetables</b></a>
+        <a class="dropdown-item" routerLink="/categories/desserts" style="color:rgb(93, 30, 194);"><b>desserts</b></a>
+        <a class="dropdown-item" routerLink="/categories/baking" style="color: rgb(93, 30, 194);"><b>Baking</b></a>
+        <a class="dropdown-item" routerLink="/categories/cleaningmaterials" style="color: rgb(93, 30, 194);"><b>Cleaning materials</b></a>
+      </div>
+    </li>
+  
+    <!-- Links -->
+    
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/newproducts" style="color: rgb(51, 206, 211);">New Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/bestsales" style="color:rgb(51, 206, 211) ;">Best Sales</a>
+      </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/offers" style="color: rgb(51, 206, 211);">Offers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/staplespackegedfood" style="color: rgb(51, 206, 211);">staples&packegedfood</a>
+        </li> <li class="nav-item">
+          <a class="nav-link" routerLink="/personalbabycare" style="color: rgb(51, 206, 211);">personal&babycare</a>
+        </li> 
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/mycart" style="color: rgb(51, 206, 211);">MyCart</a>
+        </li> 
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/reviews" style="color: rgb(51, 206, 211);">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contactus" style="color: rgb(51, 206, 211);">Contactus</a>
+          </li>
+          <!-- <div class="right"> -->
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/signin" style="color: rgb(51, 206, 211);">Signin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/singout" style="color: rgb(51, 206, 211);">Signup</a>
+          </li>
+          
+    </ul>
+  </nav>
+  
+ <br>
+<router-outlet></router-outlet>
+</body>
+<app-footer></app-footer>
+</html>

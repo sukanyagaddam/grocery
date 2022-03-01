@@ -1,0 +1,24 @@
+.card{
+    padding: 15px;
+    box-shadow: 5px 5px rgb(45, 8, 116);
+    margin: 15px;
+    width: 280px;
+    display: flex;
+    justify-content:center;
+}
+.card img
+{
+  height: 180px;  
+  width: 130px;
+  
+}
+img
+{
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+.center
+{
+ text-align: center;   
+}

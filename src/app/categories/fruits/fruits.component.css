@@ -1,0 +1,19 @@
+.card{
+    padding: 10px;
+    box-shadow: 5px 5px rgb(4, 54, 104);
+    margin: 5px;
+    width:280px;
+    display:flex;
+    justify-content: center;
+}
+  .card img
+{
+  height: 150px;  
+  width: 150px; 
+} 
+img
+{
+display:block;
+margin-left: auto;
+margin-right: auto;
+}

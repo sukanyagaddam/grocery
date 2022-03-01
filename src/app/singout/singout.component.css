@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+     justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+body
+{
+    background-color:azure;
+}
+.wrapper
+{
+    /* position: absolute;
+    top: 25%;
+    left: 30%; */
+    height: auto;
+    /* margin-left: 35%; */
+    margin-bottom: 9px;
+    width: 100%;
+    background-color: rgb(127, 142, 184);
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgb(54, 54, 161);
+}
+.wrapper h2
+{
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.wrapper .input_field
+{
+    margin-bottom: 10px;
+}
+.wrapper .input_field input[type="text"],.wrapper textarea
+{
+   width: 100%;
+   border: 1px solid gray;
+   padding: 10px;
+   border-radius: 3px;
+}
+.wrapper textarea
+{
+    resize: none;
+    height: 80px;
+}
+.wrapper .btn input[type="submit"]
+{
+    
+    text-align: center;
+     margin-left: 30px;
+     border: 0px;
+     margin-top: 15px;
+     padding: 10px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:darkgreen;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer
+
+}
+/* .wrapper #error_message
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color: rgb(190, 221, 52);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+} */
